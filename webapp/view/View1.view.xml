@@ -1,0 +1,13 @@
+<mvc:View controllerName="creatingoknavigating.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <VBox alignItems="Center" justifyContent="Center" height="75%" >
+    <Label text="username" width="20rem"></Label>
+    <Input id="name" placeholder="Enter your name" width="20rem"/>
+    <Label text="userid" width="20rem"></Label>
+    <Input id="number" placeholder="Enter your id" width="20rem"/>
+    <Button text="ok" press="onView2"/>
+    </VBox>
+    </Page>
+</mvc:View>
